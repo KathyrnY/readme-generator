@@ -15,17 +15,17 @@ const questions = [
     {
         type: 'input',
         message: 'Please provide a description of your project',
-        name: 'Description'
+        name: 'description'
     },
     {
         type: 'input',
         message: 'How to install the software',
-        name: 'Installation'
+        name: 'installation'
     },
     {
         type: 'input',
         message: 'How to use the software',
-        name: 'Usage'
+        name: 'usage'
     },
     {
         type: 'checkbox',
@@ -33,25 +33,35 @@ const questions = [
         name: 'License',
         choices: [
             {name: 'MIT', value: 'MIT' },
-            {name: 'GPI 3.0', vlaue: 'GPI_3.0' },
-            {name: 'Apache', value: 'apache' },
+            {name: 'BSD', vlaue: 'BSD' },
+            {name: 'Apache 2.0', value: 'apache_2.0' },
             {name: 'None', value: 'value' },
         ],
     },
     {
         type: 'input',
         message: 'Please provide info on how other developers can contribute',
-        name: 'Contribute'
+        name: 'contribute'
     },
     {
         type: 'input',
         message: 'Explain any test created for developers to breakdown and understand',
-        name: 'Tests'
+        name: 'test'
     },
     {
         type: 'input',
         message: 'What is your email?',
         name: 'email'
+    },
+    {
+        type: 'input',
+        message: 'What is your github?',
+        name: 'github'
+    },
+    {
+        type: 'input',
+        message: 'Please write any questions you may have',
+        name: 'questions'
     },
 ];
 
