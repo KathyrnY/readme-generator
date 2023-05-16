@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license === MIT) {
+  if (license === 'MIT') {
     return '![MIT License](https://img.shields.io/bower/l/MI?style=plastic)';
   } else if (license ==='BSD') {
     return '![BSD License](https://img.shields.io/pypi/l/Lice?style=plastic)';
@@ -16,7 +16,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license === MIT) {
+  if (license === 'MIT') {
     return 'https://opensource.org/license/mit/';
   } else if (license ==='BSD') {
     return 'https://opensource.org/license/bsd-3-clause/';
@@ -75,11 +75,11 @@ function generateMarkdown(data) {
   
   ## License
  
-  ${renderLicenseBadge(data.license.toUpperCase())}
+  ${renderLicenseBadge(data.license)}
 
-  ${renderLicenseLink(data.license.toUpperCase())}
+  ${renderLicenseLink(data.license)}
 
-  ${renderLicenseSection(data.license.toUpperCase())}
+  ${renderLicenseSection(data.license)}
  
   ## Test
   

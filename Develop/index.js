@@ -14,12 +14,12 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Please provide a description of your project',
+        message: 'Please provide a description of your project.',
         name: 'description'
     },
     {
         type: 'input',
-        message: 'How to install the software',
+        message: 'How to install the software.',
         name: 'installation'
     },
     {
