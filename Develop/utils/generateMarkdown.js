@@ -35,12 +35,17 @@ function renderLicenseSection(license) {
     return '';
   }
 }
-
+// TA Santiago assisted me in slightly modifying code to fix a bug
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  console.log(data.license);
   const license = data.license === 'None' ? '' : data.license;
   const licenseSection = renderLicenseSection(license);
   return `# ${data.title}
+  ## Badge
+
+  ${renderLicenseBadge(data.license)}
+
   ## Description
 
   ${data.description}

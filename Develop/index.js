@@ -8,6 +8,17 @@ const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = [
     {
+    type: 'list',
+    message: 'Which license would you like to use?',
+    name: 'license',
+    choices: [
+    'MIT',
+    'BSD',
+    'Apache 2.0',
+    'None',
+    ],
+    },
+    {
         type: 'input',
         message: 'What is your projects title?',
         name: 'title'
@@ -26,17 +37,6 @@ const questions = [
         type: 'input',
         message: 'How to use the software',
         name: 'usage'
-    },
-    {
-        type: 'checkbox',
-        message: 'Which license would you like to use?',
-        name: 'License',
-        choices: [
-            {name: 'MIT', value: 'MIT' },
-            {name: 'BSD', vlaue: 'BSD' },
-            {name: 'Apache 2.0', value: 'apache_2.0' },
-            {name: 'None', value: 'value' },
-        ],
     },
     {
         type: 'input',
