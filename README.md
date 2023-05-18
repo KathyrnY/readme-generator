@@ -6,6 +6,8 @@ Created a readme generator using Javascript, Node.js and Inquirer. In order to g
 
 ## Link to Video
 
+(Generator Video)[https://github.com/KathyrnY/readme-generator/assets/127566404/0b36c605-675d-4b07-81b2-1e2cec15483e]
+
 ## Credit 
 
 UNC Chapel Hill Bootcamp
