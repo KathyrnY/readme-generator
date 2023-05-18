@@ -24,5 +24,8 @@ None
 
 UNC Chapel Hill Bootcamp
 
+## Note
+
+TA Santiago provided debugging assistance. 
 
 
