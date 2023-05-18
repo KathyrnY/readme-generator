@@ -40,7 +40,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Please provide info on how other developers can contribute',
+        message: 'Please provide info on how other developers can contribute or provide credit to those who helped develop this code',
         name: 'contribute'
     },
     {

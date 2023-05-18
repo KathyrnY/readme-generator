@@ -1,11 +1,11 @@
-# sdcsd
+# Readme Generator
   ## Badge
-  
-  ![BSD License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)
+
+  ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description
 
-  sdds
+  An efficient way to help you create quality and quick readmes within your VS code terminal.
 
   ## Table of Contents 
 
@@ -25,35 +25,35 @@
 
   ## Installation
   
-  sdsd
+  Fork this code and open everything within VS code and make sure to have the NPM Inquirer.js package.
 
   ## Usage
 
-  dss
+  Enter node index.js within command line of terminal.
   
   ## Credits
   
-  efedcsdc
+  UNC Chapel Hill Bootcamp
   
   ## License
  
-  This project is licensed under the BSD license.
+  This project is licensed under the MIT license.
 
-![BSD License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-For more information, please visit [BSD](https://opensource.org/licenses/BSD-3-Clause/).
+For more information, please visit [MIT](https://opensource.org/licenses/MIT/).
  
   ## Test
   
-  scdscdsc
+  n/a
 
   ## Questions
 
-  cdscds
+  KathyrnY
 
-  https://github.com/cdscds
+  https://github.com/KathyrnY
 
-  cscdds
+  kathyrnyoung7890@gmail.com
 
-  cddsc
+  No questions
 
